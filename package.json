@@ -1,0 +1,24 @@
+{
+    "name": "batch-install-markdown",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "bimd": "dist/main.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "clipboardy": "^3.0.0",
+        "yargs": "^17.5.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.6.4",
+        "@types/yargs": "^17.0.11"
+    }
+}
