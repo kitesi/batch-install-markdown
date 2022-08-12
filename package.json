@@ -1,8 +1,8 @@
 {
     "name": "batch-install-markdown",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "Instlal links from markdown lists. Can read from files or clipbord. Uses youtube-dl internally.",
+    "main": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -10,9 +10,22 @@
         "bimd": "dist/main.js"
     },
     "type": "module",
-    "keywords": [],
+    "keywords": [
+        "markdown",
+        "batch install",
+        "install",
+        "batch"
+    ],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sixskys/batch-install-markdown.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sixskys/batch-install-markdown/issues"
+    },
+    "homepage": "https://github.com/sixskys/batch-install-markdown#readme",
     "dependencies": {
         "clipboardy": "^3.0.0",
         "yargs": "^17.5.1"
